@@ -23,7 +23,8 @@ const Title = styled.h2`
 const Itemli = styled.li`
     padding-bottom: 10px;
 `
-const Products = () => {
+
+export default function Products () {
     return (
         <Container>
             <Main>
@@ -43,5 +44,3 @@ const Products = () => {
         </Container>
     );
 }
-
-export default Products;
